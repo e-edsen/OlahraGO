@@ -161,7 +161,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        Facade\Ignition\IgnitionServiceProvider::class,
+        Livewire\LivewireServiceProvider::class,
         /*
          * Package Service Providers...
          */
